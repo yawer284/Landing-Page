@@ -1,49 +1,88 @@
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    margin: 16px;
-    align-items: center;
-    color: white;
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-ul {
-    list-style-type: none;
+nav {
     display: flex;
-    gap: 16px;
+    justify-content: space-between;
     align-items: center;
+    color: white;
+    padding-bottom: 50px;
 }
 
 .logo {
-    font-size: 24px;
     font-weight: 700;
+    font-size: 24px;
+}
+
+.links ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
 }
 
 .hero {
     display: flex;
+    gap: 50px;
+    padding-bottom: 100px;
+    align-items: center;
+    color: white;
 }
 
-.left-links {
 
-}
 
-.right-links {
-    display: flex;
-}
-
-img {
-    max-height: 150px;
-    max-width: 200px;
-    width: 120px;
-    height: 120px;
-}
-
-.header {
+nav, .hero {
     background-color: #1f2937;
-    margin: 0;
+    padding: 10px 15%;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    text-align: center;
+    margin: 16px 0;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.container img {
+    height: 100px;
+    width: 100px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.info {
+    max-width: 200px;
 }
