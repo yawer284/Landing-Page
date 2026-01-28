@@ -19,6 +19,7 @@ nav {
 .logo {
     font-weight: 700;
     font-size: 24px;
+    color: #f9faf8;
 }
 
 .links ul {
@@ -41,7 +42,15 @@ nav {
     color: white;
 }
 
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
 
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
 
 nav, .hero {
     background-color: #1f2937;
@@ -60,29 +69,45 @@ nav, .hero {
 }
 
 .hero-img {
-    width: 100%;
+    width: 300px;
+    height: auto;
     max-width: 500px;
 }
 
 h2 {
     text-align: center;
-    margin: 16px 0;
-    font-size: 24px;
+    margin: 32px 0;
+    font-size: 36px;
     font-weight: 900;
 }
 
 .container img {
-    height: 100px;
-    width: 100px;
-    
+    height: 150px;
+    width: 150px;
+    border: #3882f6 solid 3px;
+    border-radius: 15px;
 }
 
 .container {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 60px;
 }
 
 .info {
     max-width: 200px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    padding: 64px;
+    justify-content: center;
+}
+
+.jim {
+    display: flex;
+    justify-content: flex-end;
 }
