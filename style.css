@@ -14,6 +14,8 @@ nav {
     align-items: center;
     color: white;
     padding-bottom: 50px;
+    background-color: #1f2937;
+    padding: 20px 15%;
 }
 
 .logo {
@@ -36,32 +38,38 @@ nav {
 
 .hero {
     display: flex;
-    gap: 50px;
-    padding-bottom: 100px;
+    gap: 80px;
+    padding: 100px 15%;
     align-items: center;
     color: white;
+    background-color: #1f2937;
+}
+
+.left-part {
+    flex: 1;
 }
 
 h1 {
     font-size: 48px;
+    font-weight: 900;
     color: #f9faf8;
+    margin-bottom: 16px;
 }
 
 .hero-text {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 16px;
 }
 
-nav, .hero {
-    background-color: #1f2937;
-    padding: 10px 15%;
-}
+
 
 .sign-up {
     background-color: #3882f6;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 36px;
     font-size: 16px;
+    font-weight: bold;
     color: white;
     border-radius: 5px;
     margin-top: 16px;
@@ -69,7 +77,8 @@ nav, .hero {
 }
 
 .hero-img {
-    width: 300px;
+    width: 400px;
+    flex: 1;
     height: auto;
     max-width: 500px;
 }
@@ -92,22 +101,37 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 60px;
+    flex-wrap: wrap;
 }
 
 .info {
     max-width: 200px;
+    text-align: center;
+    font-size: 18px;
+    color: #374151;
 }
 
 .quote {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    font-size: 36px;
-    padding: 64px;
+    padding: 64px 20%;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 36px;
+}
+
+.text-quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .jim {
-    display: flex;
-    justify-content: flex-end;
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
 }
